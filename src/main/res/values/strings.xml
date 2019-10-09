@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AstroFinder</string>
+    <string name="app_title">AstroFinder</string>
+    <string name="button_text">NASA</string>
+    <string name="nasa_info">Default</string>
+</resources>
