@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:background="@color/profileColor"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Hi! My name is Kevin Le and I am a Sophmore Math major at the University of Texas at Austin. This summer I am taking a mobile devopment class and this is my final project. I originally thought of this app while waiting for my favorite rapper Travis Scott to come out with his new album AstroWorld! You can hear a snippet of my favorite song off the album by pressing the button below."
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playSong" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:layout_margin="60dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/logo_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:alpha = "0"
+            android:src="@drawable/logo_color" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ToggleButton
+            android:id="@+id/asteroidButton"
+
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asteroid_button"
+            android:checked="false"
+            android:onClick="onToggleButtonClicked"
+            android:scaleType="center"
+            android:textOff=""
+            android:textOn="" />
+
+        <ToggleButton
+            android:id="@+id/settingsButton"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/asteroidButton"
+            android:background="@drawable/settings_button"
+            android:onClick="onToggleButtonClicked"
+            android:scaleType="center"
+            android:textOff=""
+            android:textOn="" />
+
+
+        <ToggleButton
+            android:id="@+id/mapButton"
+
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/settingsButton"
+
+            android:background="@drawable/map_button"
+            android:scaleType="center"
+            android:textOff=""
+            android:textOn="" />
+
+        <ToggleButton
+            android:id="@+id/aboutButton"
+            android:layout_width="75dp"
+            android:layout_toRightOf="@id/mapButton"
+
+            android:layout_height="wrap_content"
+            android:background="@drawable/about_button"
+            android:onClick="onToggleButtonClicked"
+            android:scaleType="center"
+            android:textOff=""
+            android:textOn="" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

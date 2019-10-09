@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="customary"
+        android:title="Customary"
+        android:defaultValue="true"
+        android:summary="Switch between Customary and Metric" />
+
+
+    <CheckBoxPreference
+        android:key="haptic_feedback"
+        android:title="Haptic Feedback"
+        android:defaultValue="true"
+        android:summary="Toggles Haptic Feedback" />
+
+    <CheckBoxPreference
+        android:key="hints"
+        android:title="Toggles Hints"
+        android:defaultValue="true"
+        android:summary="Displays helpers throughout app" />
+
+</PreferenceScreen>

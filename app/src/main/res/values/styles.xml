@@ -1,0 +1,20 @@
+<resources xmlns:xmlsn="http://schemas.android.com/tools" xmlns:android="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name = "styleAsteroidButton" >
+        <item name = "defaultButton">@drawable/asteroid_button_default</item>
+        <item name = "pressedButton">@drawable/asteroid_button_pressed</item>
+        <item name = "depressedButton">@drawable/asteroid_button_depressed</item>
+    </style>
+    <style name = "asteroidButtonTheme" >
+        <item name = "buttonStyle">@style/styleAsteroidButton</item>
+    </style>
+
+
+</resources>
